@@ -6,6 +6,11 @@ const moon2 = document.querySelector('#toggle-dark2 #moon2')
 
 if (localStorage.getItem('theme') === 'dark') {
     body.classList.add('dark')
+    moon.style.transform = 'translateX(18px)';
+    moon2.style.transform = 'translateX(18px)';
+} else {
+    moon.style.transform = 'translateX(0px)'
+    moon2.style.transform = 'translateX(0px)'
 }
 
 darkBtn.addEventListener('click', () => {
