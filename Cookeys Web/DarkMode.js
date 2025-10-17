@@ -51,3 +51,13 @@ darkBtn2.addEventListener('click', () => {
         localStorage.setItem("theme", "light");
     }
 })
+
+// Additional for burger
+const burger = document.querySelector('.main-nav #toggle')
+const nav = document.querySelector('.main-nav')
+
+document.addEventListener('click', (e) => {
+    if (burger.checked && !nav.contains(e.target)) {
+        burger.checked = false
+    } 
+})
