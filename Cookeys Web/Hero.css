@@ -1,3 +1,4 @@
+/* Hero Container */
 .hero-wrapper{
     justify-content: center;
     align-items: center;
@@ -12,16 +13,9 @@
     overflow: hidden;
     transition: transform 0.2s ease;
     background-color: var(--background-color);
-    /* border-radius: 20px; */
 }
-/* .hero:hover{
-    transform: scale(1.02);
-    box-shadow: 0 10px 10px rgb(161, 161, 161);
-}
-.hero:hover .slider-recipe div{
-    transform: scale(1.04);
-    text-shadow: 2px 2px 2px rgb(182, 182, 182);
-} */
+
+/* Slider Edits */
 .slider{
     display: flex;
 }
@@ -31,7 +25,6 @@
     height: 610px;
     background-color: var(--background-color);
     margin-bottom: 0;
-    /* background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0)); */
 }
 .slider-recipe img{
     width: 100%;
@@ -45,7 +38,6 @@
     position: absolute;
     background: linear-gradient(5deg,  var(--background-color), var(--background-color), var(--gradient-top), var(--gradient-top), var(--gradient-middle), var(--gradient-bottom));
     inset: 0;
-    /* opacity: 10%; */
 }
 .desc1, .desc2, .desc3, .desc4, .desc5,
 #title1, #title2, #title3, #title4, #title5{
@@ -67,6 +59,8 @@
     margin-right: 2rem;
     font-size: small;
 }
+
+/* Button Edits */
 button{
     position: absolute;     
     padding: 10px;
@@ -103,10 +97,6 @@ button:hover{
     transform: scale(1.02);
     box-shadow: 0 10px 10px rgb(161, 161, 161);
 }
-/* .hero:has(.slider .slider-recipe .toRec:hover){
-    transform: scale(1.02);
-    box-shadow: 0 10px 10px rgb(161, 161, 161);
-} */
 .prev{
     inset-inline: 0;
     margin: auto;
@@ -140,13 +130,8 @@ button:hover{
     font-size: x-large;
 }
 
+/* Responsive Tweaks */
 @media(min-width: 768px){
-    /* .slider-recipe img{
-        width: 100%;
-        height: 50rem;
-        object-fit: cover;
-        display: block;
-    } */
     .slider-recipe{
         height: 600px;
     }
@@ -170,4 +155,5 @@ button:hover{
         scale: 1.2;
         bottom: 26%;
     }
+
 }
