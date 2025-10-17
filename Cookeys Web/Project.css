@@ -307,7 +307,7 @@ button:hover{
   justify-self: end ;
   position: relative;
   right: 1rem;
-  scale: 0.8;
+  scale: 1;
 }
 .socials a {
   width: 38px;
@@ -965,4 +965,5 @@ footer .social-links {
     align-self: start;
   }
 }
+
 
