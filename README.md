@@ -7,10 +7,10 @@ It allows users to browse dishes, view detailed cooking instructions, and explor
 The project emphasizes front-end web development principles like structure, design, and interactivity.
 
 ## Members & Contributions
-- Anne Stephanne Buenaflor – Leader, CSS Developer
-- Leander Dylan Bronola – JS Developer, CSS Developer
-- Brenan Lester Espeleta – HTML Developer, CSS Developer, JS Developer
-- Mel Magdaraog – CSS Developer
+- Anne Stephanne Buenaflor – Team Lead, Front-End (CSS) Developer
+- Leander Dylan Bronola – JavaScript Developer, Front-End (CSS) Developer
+- Brenan Lester Espeleta – HTML Developer, Front-End (CSS) Developer, JavaScript Developer
+- Mel Magdaraog – Front-End (CSS) Developer
 
 ## Features Implemented
 - Responsive navigation bar with burger menu
